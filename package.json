@@ -1,0 +1,22 @@
+{
+  "name": "less",
+  "version": "1.0.0",
+  "description": "Nataly Pavlova Lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infrared212/Lessons.git"
+  },
+  "author": "Nataly Pavlova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infrared212/Lessons/issues"
+  },
+  "homepage": "https://github.com/Infrared212/Lessons#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}

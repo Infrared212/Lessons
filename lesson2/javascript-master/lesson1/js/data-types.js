@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 // однострочный комментарий
 
-/* многострочный
-   комментарий */
+// многострочный
+// комментарий
 
 // отладка
-console.log('Данные для отладки');
+console.log("Данные для отладки");
 
 // переменные
 // объявление перменных
@@ -13,19 +13,21 @@ let age = 26;
 age = 27;
 console.log(age);
 
-let userLogin = 'qwerty', password = 'qwerty123';
-// let userLogin = 'qwerty';
-// let password = 'qwerty123';
+let active,
+    closed = 1,
+    // let userLogin = 'qwerty';
+    // let password = 'qwerty123';
 
-let height = 400;
-let width = 700;
-// let height = 400, width = 700;
+    height = 400,
+    password = "qwerty123",
+    // let height = 400, width = 700;
 
-let active, closed = 1;
+    userLogin = "qwerty",
+    width = 700;
 
 // значение константы необходимо присвоить в момент объявления
 // нельзя изменить в дальнейшем
-const PI = 3.14; // ELEMENT_STATE
+const PI = 3.14; // eLEMENT_STATE
 console.log(PI);
 
 // var data = 'Данные';
@@ -41,20 +43,23 @@ width = 23.89;
 let degree = -100;
 
 // 2. Строки: тип string
-degree = '-100C';
-userLogin = 'wind009';
+degree = "-100C";
+userLogin = "wind009";
 userLogin = "qwe";
 
-let loginInfo = `Значение переменной userLogin равно ${userLogin}, ${password}`;
+const loginInfo = `Значение переменной userLogin равно ${userLogin}, ${password}`;
 console.log(loginInfo);
 
 // 3. Логический: тип boolean
 active = true;
 closed = false;
-console.log(active, closed);
+console.log(
+    active,
+    closed
+);
 
 // 4. Значение неизвестно: null
-let books = null;
+const books = null;
 
 // 5. Значение не было присвоено: undefined
 let elem;
@@ -65,13 +70,3 @@ console.log(typeof active);
 console.log(typeof loginInfo);
 console.log(typeof age);
 console.log(typeof books);
-
-
-
-
-
-
-
-
-
-
