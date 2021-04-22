@@ -27,8 +27,10 @@ nums_2.splice(index_max, 1, minNums);
 nums_2.splice(index_min, 1, maxNums);
 
 console.log(nums_2);
+
 //3
 let nums3 = [3, 7, -4, 6, -67, 8, -1];
- let lessZero = num => num < 0
- let resArr = nums3.filter (lessZero);
- console.log(resArr);
+let lessZero = num => num < 0
+let resArr = nums3.filter (lessZero);
+
+console.log(resArr);
