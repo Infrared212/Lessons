@@ -1,8 +1,9 @@
 /self_*
-/lesson7
-/lesson6
-/lesson4
-/lesson3
+#/lesson7
+#/lesson6
+#/lesson4
+#/lesson3
 */.DS_Store
 /node_modules
 /js
+/.idea
